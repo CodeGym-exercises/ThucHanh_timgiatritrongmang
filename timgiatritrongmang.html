@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tim gia tri trong mang</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		let input = Number(prompt("Nhap vao gia tri"));
+		let arr = [234,65,765,345,34,9,3533];
+		console.log(arr);
+		let found = false;
+		for(let i = 0; i<arr.length;i++){		
+			if(input==arr[i]){
+				alert("Ban da nhap dung gia tri trong mang " + arr[i]);
+				found = true;
+			}		
+		}
+		if (found==false) {
+			alert("Khong tim thay gia tri");
+		}
+	</script>
+</body>
+</html>
